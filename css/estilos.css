@@ -15,6 +15,18 @@ a:hover{
   padding-top: 15px;
   margin: 10px;
 }
+.sizemobile{
+  flex-direction: row;
+  width: 30px;
+  padding-top: 15px;
+  margin: 10px;
+}
+.sizedesktop{
+  flex-direction: row;
+  width: 30px;
+  padding-top: 15px;
+  margin: 10px;
+}
 header {
   display: inline-block;
   width: 100%;
@@ -173,5 +185,22 @@ div[class^="__header-"] {
 @media (max-width: 575px) {
   .__inner-img {
     height: 160px;
+  }
+  .sizedesktop{
+    display: none;
+    flex-direction: row;
+    width: 30px;
+    padding-top: 15px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 575px) {
+  .sizemobile{
+    display: none;
+    flex-direction: row;
+    width: 30px;
+    padding-top: 15px;
+    margin: 10px;
   }
 }
